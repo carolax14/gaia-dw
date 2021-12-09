@@ -1,0 +1,212 @@
+<body class="bg-gray-100 font-family-karla min-h-screen">
+  <div class="w-full flex flex-wrap">
+    <!-- Login Section -->
+    <div class="w-full md:w-1/2 flex flex-col">
+      <nav class="bg-white max-w-full inset-x-0">
+        <div
+          class="
+            max-w-full
+            mx-auto
+            border
+            text-center
+            lg:text-center
+            py-2
+            lg:py-1
+          "
+        >
+          <h1
+            class="
+              py-2
+              text-base
+              lg:text-lg
+              leading-4
+              font-bold
+              tracking-tight
+              text-gray-900
+            "
+          >
+            Demande d'intervention
+          </h1>
+        </div>
+      </nav>
+
+      <div class="pt-6 px-4 mb-1 mx-2 h-screen">
+        <h2 class="font-medium">
+          <span class="text-green-800">Etape 1 :</span>
+          Sélection de votre produit
+        </h2>
+        <p class="mt-2 max-w-4xl text-sm lg:text-base">
+          Parmis vos produits, lequel requiert l’intervention d’un technicien à
+          votre domicile ?
+        </p>
+
+        <div class="py-6 lg:py-6 max-w-screen-lg mx-auto">
+          <button
+            type="submit"
+            class="
+              group
+              relative
+              w-full
+              flex
+              justify-center
+              py-3
+              px-4
+              border border-transparent
+              text-sm
+              font-medium
+              rounded-xl
+              border-green-800
+              text-green-800
+              bg-white
+              hover:border-green-600 hover:text-green-600
+              focus:outline-none
+              focus:ring-2
+              focus:ring-offset-2
+              focus:ring-green-600
+            "
+          >
+            Sélectionnez un produit enregistré
+          </button>
+        </div>
+
+        <div class="text-center">
+          <h2 class="font-medium text-sm">
+            <div class="border-b-2"></div>
+            Ou renseigner un produit
+          </h2>
+        </div>
+        <form class="grid grid-cols-2 gap-2 w-full pt-2 object-center">
+          <div>
+            <div class="flex flex-col p-2 cursor-pointer">
+              <div class="w-full rounded-xl overflow-hidden shadow-lg bg-white">
+                <input
+                  type="radio"
+                  class="form-radio m-1 cursor-pointer"
+                  name="radio"
+                  value="1"
+                  checked
+                />
+                <img
+                  class="w-full"
+                  src="https://s3-alpha-sig.figma.com/img/dfd9/6484/6aa196c73c8f3d77627fa9e99d7269ac?Expires=1639958400&Signature=Z2c8NAX5LFFOmxrcHPKxbNUEOOY-tSblHEJUN~6Kx5H60LoOQY4M9sxBcS7BzZv8M09GkQnC1M2wClFJ6KMbRzJH6aOa0IelTs-2iWk-GBGfLRZa8mmgC5XnqM~5Lt3jgT4zfp2QHqYJSWQHUiJW4n8aDMpk2-WhJQDkUTNE30I2gQi6U1wdby9lJy65IV4grsyhIOFWwVyAATtQkJqnmlh5GZ5q1HB4T8RakiVEu80hsprmZ6sjWPWCqnbpivR6J-0b~oq8VbbnQsCygKYrBUCnjOKknjKXmpToENDzGX1ojDuCjjuV-QT1bGowLgluBT-H6sknWWnrGI8RMqC00Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                />
+                <div class="border-b-2 mx-2"></div>
+                <div class="font-medium mb-2 text-center mt-2 text-xs">
+                  Chauffe-eau solaire
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex flex-col p-2 cursor-pointer">
+              <div class="w-full rounded-xl overflow-hidden shadow-lg bg-white">
+                <input
+                  type="radio"
+                  class="form-radio m-1 cursor-pointer"
+                  name="radio"
+                  value="1"
+                  unchecked
+                />
+                <img
+                  class="w-full"
+                  src="https://s3-alpha-sig.figma.com/img/5116/7dd8/c6bdad83cd8a737fc8f0fd8bdfc6b3a8?Expires=1639958400&Signature=bFD89h81k6hduEhPLSNVKb28CAaNi-AGPn8HBTb3dKdreG1zfRNZkQYq7jf-Sepk-T3eFYHW5uMANvRXvpAU7Zw8F~Q7BeCWe5xQYrOJiX5jp9Yvwzt2RCgPBOutdRcy4njqpFpTZAVUlApejI4Oth1tHkyhxrDtwvx7QhAL-yML4IqCzOcyKmwcShYX6Do4udvVLnLqDwR0-Lbhnoq7GCgG06zVz5ZkJQ0liKJWMrEaZ92ma~PfXrO92~RZnASBjmL6a~I4i86RRcy6WC8wgoKcZHroKoVs42Ast8Eo~9ynrD26buaMyp5OhF4J01RIzPnphgsSTWlkz-RnWFwI3A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                />
+                <div class="border-b-2 mx-2"></div>
+                <div class="font-medium mb-2 text-center mt-2 text-xs">
+                  Photovoltaïque
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <form class="py-5 text-sm">
+          <select
+            class="form-select block w-full h-10 mt-3 rounded-xl text-gray-400"
+          >
+            <option>Selectionnez un modèle</option>
+            <option>...</option>
+          </select>
+          <select
+            class="form-select block w-full h-10 mt-3 rounded-xl text-gray-400"
+          >
+            <option>Configuration (en titre)</option>
+            <option>...</option>
+          </select>
+          <select
+            class="form-select block w-full h-10 mt-3 rounded-xl text-gray-400"
+          >
+            <option>Marque (Ex : Gaïa)</option>
+            <option>...</option>
+          </select>
+        </form>
+
+        <div class="py-6 max-w-screen-lg mx-auto">
+          <div class="grid grid-cols-2 gap-2 w-full pt-2 object-center">
+            <button
+              type="button"
+              class="
+                invisible
+                w-full
+                inline-flex
+                justify-center
+                rounded-xl
+                border border-transparent
+                shadow-sm
+                px-4
+                py-2
+                lg:py-4
+                text-sm
+                font-medium
+                text-gray-600
+                bg-white
+                hover:bg-green-700
+                border-gray-300
+                focus:outline-none
+                focus:ring-2
+                focus:ring-offset-2
+                focus:ring-green-600
+                sm:ml-3 sm:w-auto sm:text-sm
+              "
+            >
+              Prècédent
+            </button>
+            <button
+              type="button"
+              class="
+                w-full
+                inline-flex
+                justify-center
+                rounded-xl
+                border border-transparent
+                shadow-sm
+                px-4
+                py-2
+                lg:py-4
+                text-sm
+                font-medium
+                text-white
+                bg-green-800
+                hover:bg-green-700
+                focus:outline-none
+                focus:ring-2
+                focus:ring-offset-2
+                focus:ring-green-600
+                sm:ml-3 sm:w-auto sm:text-sm
+              "
+            >
+              Suivant
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Section -->
+    <div class="w-1/2 shadow-2xl opacity-80">
+      <img
+        class="object-fill fixed w-full h-screen hidden md:block"
+        src="https://images.unsplash.com/photo-1631621329528-ac47412020c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY1M3xpVUlzblZ0akIwWXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+      />
+    </div>
+  </div>
+</body>
