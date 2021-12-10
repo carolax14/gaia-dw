@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gaia-dw';
+  pageSuivante(){
+    location.href = "./page/m&s-etape2.html";
+ }
 }
