@@ -1,0 +1,94 @@
+<body class="bg-gray-100 font-family-karla min-h-screen">
+  <div class="w-full flex flex-wrap">
+    <div class="w-full md:w-1/2 flex flex-col">
+      <nav class="bg-white max-w-full inset-x-0">
+        <div
+          class="
+            max-w-full
+            mx-auto
+            border
+            text-center
+            lg:text-center
+            py-2
+            lg:py-1
+          "
+        >
+          <h1
+            class="
+              py-2
+              text-base
+              lg:text-lg
+              leading-4
+              font-bold
+              tracking-tight
+              text-gray-900
+            "
+          >
+            Mes produits enregistrés
+          </h1>
+        </div>
+      </nav>
+
+      <div class="pt-6 px-4 mb-1 mx-2 h-screen">
+        <section>
+          <form class="grid grid-cols-2 gap-2 w-full pt-2 object-center">
+            <div>
+              <div class="flex flex-col p-2 cursor-pointer">
+                <div
+                  class="w-full rounded-xl overflow-hidden shadow-lg bg-white"
+                >
+                  <label
+                    class="
+                      cursor-pointer
+                      flex flex-col
+                      w-full
+                      h-full
+                      bg-white
+                      text-green-600
+                      font-bold
+                      py-2
+                      px-4
+                      rounded
+                    "
+                    ><div class="items-center flex flex-col pb-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-14 w-14 items-center flex flex-col"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="border-b-2"></div>
+                    <span class="font-semibold text-gray-800 items-start"
+                      >Ajouter</span
+                    >
+                    <span class="font-normal text-sm text-gray-400 items-start"
+                      >un produit Gaïa</span
+                    >
+                    <input type="file" class="hidden" />
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    <!-- Image Section -->
+    <div class="w-1/2 shadow-2xl opacity-80">
+      <img
+        class="object-fill fixed w-full h-screen hidden md:block"
+        src="https://images.unsplash.com/photo-1631621329528-ac47412020c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY1M3xpVUlzblZ0akIwWXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+      />
+    </div>
+  </div>
+</body>
