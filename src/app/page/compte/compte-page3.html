@@ -1,43 +1,29 @@
 <body class="bg-gray-100 font-family-karla min-h-screen">
   <div class="w-full flex flex-wrap">
     <div class="w-full md:w-1/2 flex flex-col">
-      <nav class="bg-white max-w-full inset-x-0">
+      <nav
+        class="bg-white max-w-full inset-x-0 fixed md:w-1/2 lg:w-1/2 xl:w-1/2"
+      >
         <div
-          class="
-            max-w-full
-            mx-auto
-            border
-            text-center
-            lg:text-center
-            py-2
-            lg:py-1
-          "
+          class="max-w-full mx-auto border text-center lg:text-center py-2 lg:py-1"
         >
           <h1
-            class="
-              py-2
-              text-base
-              lg:text-lg
-              leading-4
-              font-bold
-              tracking-tight
-              text-gray-900
-            "
+            class="py-2 text-base lg:text-lg leading-4 font-bold tracking-tight text-gray-900"
           >
             Préférences de notifications
           </h1>
         </div>
       </nav>
-
-      <div class="pt-6 px-4 mb-1 mx-2 h-screen">
-        <p class="mt-2 mb-2 max-w-4xl text-sm lg:text-base md:text-base">
+      <div class="pt-16 px-4 mb-32 mx-2 h-full">
+        <!-- Setion Informations -->
+        <p class="mt-4 mb-2 max-w-4xl text-sm md:text-base lg:text-base">
           Gérez les préférences de notifications de l’application Gaïa.
         </p>
         <section>
           <div class="py-3 lg:py-3 max-w-screen-lg mx-auto">
             <form>
               <div class="pb-5">
-                <h2 class="font-medium md:text-lg">Notification push</h2>
+                <h2 class="font-medium md:text-base">Notification push</h2>
 
                 <style>
                   /* Toggle A */
@@ -66,28 +52,11 @@
                 </style>
                 <div class="pb-2">
                   <div
-                    class="
-                      flex flex-col
-                      px-5
-                      py-3
-                      rounded-xl
-                      w-full
-                      mt-2
-                      mb-4
-                      bg-white
-                      border-transparent
-                    "
+                    class="flex flex-col px-5 py-3 rounded-xl w-full mt-2 mb-4 bg-white border-transparent"
                   >
-                    <div class="grid grid-cols-3 gap-14">
+                    <div class="grid grid-cols-3 gap-14 lg:gap-40 2xl:gap-60">
                       <div
-                        class="
-                          w-full
-                          col-span-2
-                          bg-white
-                          text-sm
-                          lg:text-base
-                          xl:text-base
-                        "
+                        class="w-full col-span-2 bg-white text-sm lg:text-base xl:text-base"
                       >
                         Alerte de surconsommation eau
                       </div>
@@ -110,29 +79,11 @@
                               />
                               <!-- line -->
                               <div
-                                class="
-                                  w-10
-                                  h-4
-                                  bg-gray-200
-                                  rounded-full
-                                  shadow-inner
-                                  items-end
-                                "
+                                class="w-10 h-4 bg-gray-200 rounded-full shadow-inner items-end"
                               ></div>
                               <!-- dot -->
                               <div
-                                class="
-                                  dot
-                                  absolute
-                                  w-6
-                                  h-6
-                                  bg-gray-300
-                                  rounded-full
-                                  shadow
-                                  -left-1
-                                  -top-1
-                                  transition
-                                "
+                                class="dot absolute w-6 h-6 bg-gray-300 rounded-full shadow -left-1 -top-1 transition"
                               ></div>
                             </div>
                             <!-- label -->
@@ -142,28 +93,11 @@
                     </div>
                   </div>
                   <div
-                    class="
-                      flex flex-col
-                      px-5
-                      py-3
-                      rounded-xl
-                      w-full
-                      mt-2
-                      mb-4
-                      bg-white
-                      border-transparent
-                    "
+                    class="flex flex-col px-5 py-3 rounded-xl w-full mt-2 mb-4 bg-white border-transparent"
                   >
-                    <div class="grid grid-cols-3 gap-14">
+                    <div class="grid grid-cols-3 gap-14 lg:gap-40 2xl:gap-60">
                       <div
-                        class="
-                          w-full
-                          col-span-2
-                          bg-white
-                          text-sm
-                          lg:text-base
-                          xl:text-base
-                        "
+                        class="w-full col-span-2 bg-white text-sm lg:text-base xl:text-base"
                       >
                         Seuil douche disponible faible
                       </div>
@@ -186,29 +120,11 @@
                               />
                               <!-- line -->
                               <div
-                                class="
-                                  w-10
-                                  h-4
-                                  bg-gray-200
-                                  rounded-full
-                                  shadow-inner
-                                  items-end
-                                "
+                                class="w-10 h-4 bg-gray-200 rounded-full shadow-inner items-end"
                               ></div>
                               <!-- dot -->
                               <div
-                                class="
-                                  dot
-                                  absolute
-                                  w-6
-                                  h-6
-                                  bg-gray-300
-                                  rounded-full
-                                  shadow
-                                  -left-1
-                                  -top-1
-                                  transition
-                                "
+                                class="dot absolute w-6 h-6 bg-gray-300 rounded-full shadow -left-1 -top-1 transition"
                               ></div>
                             </div>
                             <!-- label -->
@@ -218,28 +134,11 @@
                     </div>
                   </div>
                   <div
-                    class="
-                      flex flex-col
-                      px-5
-                      py-3
-                      rounded-xl
-                      w-full
-                      mt-2
-                      mb-4
-                      bg-white
-                      border-transparent
-                    "
+                    class="flex flex-col px-5 py-3 rounded-xl w-full mt-2 mb-4 bg-white border-transparent"
                   >
-                    <div class="grid grid-cols-3 gap-14">
+                    <div class="grid grid-cols-3 gap-14 lg:gap-40 2xl:gap-60">
                       <div
-                        class="
-                          w-full
-                          col-span-2
-                          bg-white
-                          text-sm
-                          lg:text-base
-                          xl:text-base
-                        "
+                        class="w-full col-span-2 bg-white text-sm lg:text-base xl:text-base"
                       >
                         Économies réalisées / mois
                       </div>
@@ -262,29 +161,11 @@
                               />
                               <!-- line -->
                               <div
-                                class="
-                                  w-10
-                                  h-4
-                                  bg-gray-200
-                                  rounded-full
-                                  shadow-inner
-                                  items-end
-                                "
+                                class="w-10 h-4 bg-gray-200 rounded-full shadow-inner items-end"
                               ></div>
                               <!-- dot -->
                               <div
-                                class="
-                                  dot
-                                  absolute
-                                  w-6
-                                  h-6
-                                  bg-gray-300
-                                  rounded-full
-                                  shadow
-                                  -left-1
-                                  -top-1
-                                  transition
-                                "
+                                class="dot absolute w-6 h-6 bg-gray-300 rounded-full shadow -left-1 -top-1 transition"
                               ></div>
                             </div>
                             <!-- label -->
@@ -294,28 +175,11 @@
                     </div>
                   </div>
                   <div
-                    class="
-                      flex flex-col
-                      px-5
-                      py-3
-                      rounded-xl
-                      w-full
-                      mt-2
-                      mb-4
-                      bg-white
-                      border-transparent
-                    "
+                    class="flex flex-col px-5 py-3 rounded-xl w-full mt-2 mb-4 bg-white border-transparent"
                   >
-                    <div class="grid grid-cols-3 gap-14">
+                    <div class="grid grid-cols-3 gap-14 lg:gap-40 2xl:gap-60">
                       <div
-                        class="
-                          w-full
-                          col-span-2
-                          bg-white
-                          text-sm
-                          lg:text-base
-                          xl:text-base
-                        "
+                        class="w-full col-span-2 bg-white text-sm lg:text-base xl:text-base"
                       >
                         Actualités du groupe Gaïa
                       </div>
@@ -338,29 +202,11 @@
                               />
                               <!-- line -->
                               <div
-                                class="
-                                  w-10
-                                  h-4
-                                  bg-gray-200
-                                  rounded-full
-                                  shadow-inner
-                                  items-end
-                                "
+                                class="w-10 h-4 bg-gray-200 rounded-full shadow-inner items-end"
                               ></div>
                               <!-- dot -->
                               <div
-                                class="
-                                  dot
-                                  absolute
-                                  w-6
-                                  h-6
-                                  bg-gray-300
-                                  rounded-full
-                                  shadow
-                                  -left-1
-                                  -top-1
-                                  transition
-                                "
+                                class="dot absolute w-6 h-6 bg-gray-300 rounded-full shadow -left-1 -top-1 transition"
                               ></div>
                             </div>
                             <!-- label -->
