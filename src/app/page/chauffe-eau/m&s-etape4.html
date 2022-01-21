@@ -1,460 +1,145 @@
 <body class="bg-gray-100 font-family-karla min-h-screen">
   <div class="w-full flex flex-wrap">
-    <!-- Login Section -->
     <div class="w-full md:w-1/2 flex flex-col">
-      <nav class="bg-white max-w-full inset-x-0">
+      <nav
+        class="bg-white max-w-full inset-x-0 fixed md:w-1/2 lg:w-1/2 xl:w-1/2"
+      >
         <div
-          class="
-            max-w-full
-            mx-auto
-            border
-            text-center
-            lg:text-center
-            py-2
-            lg:py-1
-          "
+          class="max-w-full mx-auto border text-center lg:text-center py-2 lg:py-1"
         >
           <h1
-            class="
-              py-2
-              text-base
-              md:text-lg
-              lg:text-lg
-              leading-4
-              font-bold
-              tracking-tight
-              text-gray-900
-            "
+            class="py-2 text-base lg:text-lg leading-4 font-bold tracking-tight text-gray-900"
           >
-            Demande d'intervention
+            Réapitulatif de la demande
           </h1>
         </div>
-      </nav>
-      <div class="relative pt-0">
-        <div class="overflow-hidden h-1 text-xs flex rounded bg-gray-200">
-          <div
-            style="width: 100%"
-            class="
-              shadow-none
-              flex flex-col
-              text-center
-              whitespace-nowrap
-              text-white
-              justify-center
-              bg-yellow-500
-            "
-          ></div>
-        </div>
-      </div>
-
-      <div class="pt-6 px-4 mb-1 mx-2 h-screen">
-        <h2 class="font-medium">
-          <span class="text-green-800 md:text-lg">Etape 4 :</span>
-          : Vos coordonnées
-        </h2>
-        <p class="mt-2 max-w-4xl text-sm lg:text-base md:text-base">
-          Vérifiez si vos informations ci-dessous sont toujours valide afin de
-          confirmer votre demande
-        </p>
-
-        <div class="py-3 lg:py-3 max-w-screen-lg mx-auto">
-          <form>
-            <div class="pb-5">
-              <div class="flex">
-                <div class="flex-grow pr-2">
-                  <input
-                    placeholder="Prénom"
-                    class="
-                      text-black
-                      placeholder-gray-400
-                      w-full
-                      px-4
-                      py-2.5
-                      mt-2
-                      text-base
-                      md:text-lg
-                      transition
-                      duration-500
-                      ease-in-out
-                      transform
-                      border border-gray-200
-                      rounded-xl
-                      bg-white
-                      focus:border-blueGray-500 focus:bg-white
-                      dark:focus:bg-gray-400
-                      focus:outline-none focus:shadow-outline focus:ring-2
-                      ring-offset-current ring-offset-2 ring-gray-400
-                    "
-                  />
-                </div>
-                <div class="flex-grow">
-                  <input
-                    placeholder="Nom"
-                    class="
-                      text-black
-                      placeholder-gray-400
-                      w-full
-                      px-4
-                      py-2.5
-                      mt-2
-                      text-base
-                      md:text-lg
-                      transition
-                      duration-500
-                      ease-in-out
-                      transform
-                      border border-gray-200
-                      rounded-xl
-                      bg-white
-                      focus:border-blueGray-500 focus:bg-white
-                      dark:focus:bg-gray-400
-                      focus:outline-none focus:shadow-outline focus:ring-2
-                      ring-offset-current ring-offset-2 ring-gray-400
-                    "
-                  />
-                </div>
-              </div>
-              <input
-                placeholder="Adresse mail"
-                class="
-                  text-black
-                  placeholder-gray-400
-                  w-full
-                  px-4
-                  py-2.5
-                  mt-2
-                  text-base
-                  md:text-lg
-                  transition
-                  duration-500
-                  ease-in-out
-                  transform
-                  border border-gray-200
-                  rounded-xl
-                  bg-white
-                  focus:border-blueGray-500 focus:bg-white
-                  dark:focus:bg-gray-400
-                  focus:outline-none focus:shadow-outline focus:ring-2
-                  ring-offset-current ring-offset-2 ring-gray-400
-                "
-              /><input
-                placeholder="N° de téléphone"
-                class="
-                  text-black
-                  placeholder-gray-400
-                  w-full
-                  px-4
-                  py-2.5
-                  mt-2
-                  text-base
-                  md:text-lg
-                  transition
-                  duration-500
-                  ease-in-out
-                  transform
-                  border border-gray-200
-                  rounded-xl
-                  bg-white
-                  focus:border-blueGray-500 focus:bg-white
-                  dark:focus:bg-gray-400
-                  focus:outline-none focus:shadow-outline focus:ring-2
-                  ring-offset-current ring-offset-2 ring-gray-400
-                "
-              />
-            </div>
-            <div class="pb-5">
-              <h2 class="font-medium md:text-lg">Adresse d'installation</h2>
-              <input
-                placeholder="Adresse"
-                class="
-                  text-black
-                  placeholder-gray-400
-                  w-full
-                  px-4
-                  py-2.5
-                  mt-2
-                  text-base
-                  md:text-lg
-                  transition
-                  duration-500
-                  ease-in-out
-                  transform
-                  border border-gray-200
-                  rounded-xl
-                  bg-white
-                  focus:border-blueGray-500 focus:bg-white
-                  dark:focus:bg-gray-400
-                  focus:outline-none focus:shadow-outline focus:ring-2
-                  ring-offset-current ring-offset-2 ring-gray-400
-                "
-              /><input
-                placeholder="Complément d'adresse"
-                class="
-                  text-black
-                  placeholder-gray-400
-                  w-full
-                  px-4
-                  py-2.5
-                  mt-2
-                  text-base
-                  md:text-lg
-                  transition
-                  duration-500
-                  ease-in-out
-                  transform
-                  border border-gray-200
-                  rounded-xl
-                  bg-white
-                  focus:border-blueGray-500 focus:bg-white
-                  dark:focus:bg-gray-400
-                  focus:outline-none focus:shadow-outline focus:ring-2
-                  ring-offset-current ring-offset-2 ring-gray-400
-                "
-              />
-              <div class="flex">
-                <div class="flex-grow pr-2">
-                  <input
-                    placeholder="Code postal"
-                    class="
-                      text-black
-                      placeholder-gray-400
-                      w-full
-                      px-4
-                      py-2.5
-                      mt-2
-                      text-base
-                      md:text-lg
-                      transition
-                      duration-500
-                      ease-in-out
-                      transform
-                      border border-gray-200
-                      rounded-xl
-                      bg-white
-                      focus:border-blueGray-500 focus:bg-white
-                      dark:focus:bg-gray-400
-                      focus:outline-none focus:shadow-outline focus:ring-2
-                      ring-offset-current ring-offset-2 ring-gray-400
-                    "
-                  />
-                </div>
-                <div class="flex-grow">
-                  <input
-                    placeholder="Ville"
-                    class="
-                      text-black
-                      placeholder-gray-400
-                      w-full
-                      px-4
-                      py-2.5
-                      mt-2
-                      text-base
-                      md:text-lg
-                      transition
-                      duration-500
-                      ease-in-out
-                      transform
-                      border border-gray-200
-                      rounded-xl
-                      bg-white
-                      focus:border-blueGray-500 focus:bg-white
-                      dark:focus:bg-gray-400
-                      focus:outline-none focus:shadow-outline focus:ring-2
-                      ring-offset-current ring-offset-2 ring-gray-400
-                    "
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="pb-5">
-              <h2 class="font-medium md:text-lg">Adresse de facturation</h2>
-
-              <input
-                placeholder="Intitulé de l'adresse"
-                class="
-                  text-black
-                  placeholder-gray-400
-                  w-full
-                  px-4
-                  py-2.5
-                  mt-2
-                  text-base
-                  md:text-lg
-                  transition
-                  duration-500
-                  ease-in-out
-                  transform
-                  border border-gray-200
-                  rounded-xl
-                  bg-white
-                  focus:border-blueGray-500 focus:bg-white
-                  dark:focus:bg-gray-400
-                  focus:outline-none focus:shadow-outline focus:ring-2
-                  ring-offset-current ring-offset-2 ring-gray-400
-                "
-              /><input
-                placeholder="Adresse"
-                class="
-                  text-black
-                  placeholder-gray-400
-                  w-full
-                  px-4
-                  py-2.5
-                  mt-2
-                  text-base
-                  md:text-lg
-                  transition
-                  duration-500
-                  ease-in-out
-                  transform
-                  border border-gray-200
-                  rounded-xl
-                  bg-white
-                  focus:border-blueGray-500 focus:bg-white
-                  dark:focus:bg-gray-400
-                  focus:outline-none focus:shadow-outline focus:ring-2
-                  ring-offset-current ring-offset-2 ring-gray-400
-                "
-              />
-              <input
-                placeholder="Complément (batiment, appartement)"
-                class="
-                  text-black
-                  placeholder-gray-400
-                  w-full
-                  px-4
-                  py-2.5
-                  mt-2
-                  text-base
-                  md:text-lg
-                  transition
-                  duration-500
-                  ease-in-out
-                  transform
-                  border border-gray-200
-                  rounded-xl
-                  bg-white
-                  focus:border-blueGray-500 focus:bg-white
-                  dark:focus:bg-gray-400
-                  focus:outline-none focus:shadow-outline focus:ring-2
-                  ring-offset-current ring-offset-2 ring-gray-400
-                "
-              />
-              <div class="flex">
-                <div class="flex-grow pr-2">
-                  <input
-                    placeholder="Code postal"
-                    class="
-                      text-black
-                      placeholder-gray-400
-                      w-full
-                      px-4
-                      py-2.5
-                      mt-2
-                      text-base
-                      md:text-lg
-                      transition
-                      duration-500
-                      ease-in-out
-                      transform
-                      border border-gray-200
-                      rounded-xl
-                      bg-white
-                      focus:border-blueGray-500 focus:bg-white
-                      dark:focus:bg-gray-400
-                      focus:outline-none focus:shadow-outline focus:ring-2
-                      ring-offset-current ring-offset-2 ring-gray-400
-                    "
-                  />
-                </div>
-                <div class="flex-grow">
-                  <input
-                    placeholder="Ville"
-                    class="
-                      text-black
-                      placeholder-gray-400
-                      w-full
-                      px-4
-                      py-2.5
-                      mt-2
-                      text-base
-                      md:text-lg
-                      transition
-                      duration-500
-                      ease-in-out
-                      transform
-                      border border-gray-200
-                      rounded-xl
-                      bg-white
-                      focus:border-blueGray-500 focus:bg-white
-                      dark:focus:bg-gray-400
-                      focus:outline-none focus:shadow-outline focus:ring-2
-                      ring-offset-current ring-offset-2 ring-gray-400
-                    "
-                  />
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <div class="pt-2 pb-4 max-w-screen-lg mx-auto sm:pt-1 sm:pb-2">
-          <div class="grid grid-cols-2 gap-2 w-full pt-2 object-center">
-            <button
-              type="button"
-              class="
-                w-full
-                inline-flex
-                justify-center
-                rounded-xl
-                border border-transparent
-                shadow-sm
-                px-4
-                py-3
-                lg:py-4
-                text-sm
-                font-medium
-                text-gray-600
-                bg-white
-                hover:bg-green-700
-                border-gray-300
-                focus:outline-none
-                focus:ring-2
-                focus:ring-offset-2
-                focus:ring-green-600
-                sm:ml-3 sm:w-auto sm:text-sm
-              "
-            >
-              Prècédent
-            </button>
-            <button
-              type="button"
-              class="
-                w-full
-                inline-flex
-                justify-center
-                rounded-xl
-                border border-transparent
-                shadow-sm
-                px-4
-                py-3
-                lg:py-4
-                text-sm
-                font-medium
-                text-white
-                bg-green-800
-                hover:bg-green-700
-                focus:outline-none
-                focus:ring-2
-                focus:ring-offset-2
-                focus:ring-green-600
-                sm:ml-3 sm:w-auto sm:text-sm
-              "
-            >
-              Suivant
-            </button>
+        <div class="relative pt-0">
+          <div class="overflow-hidden h-1 text-xs flex rounded bg-gray-200">
+            <div
+              style="width: 100%"
+              class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
+            ></div>
           </div>
         </div>
+      </nav>
+      <div class="pt-16 px-4 mb-4 mx-2 h-full">
+        <!-- Setion Etape 4 -->
+
+        <section>
+          <p class="mt-4">
+            Vérifiez si vos informations ci-dessous sont conforme à votre
+            demande d’intervention..
+          </p>
+          <div class="py-6 lg:py-6 max-w-screen-lg mx-auto">
+            <section>
+              <h2 class="font-medium py-2">
+                <span class="text-green-800">1.</span>
+                Produit concerné
+              </h2>
+              <div>
+                <p class="max-w-4xl text-sm lg:text-base">
+                  <span class="font-semibold underline">Type :</span>
+                  Chauffe eau solaire
+                </p>
+                <p class="max-w-4xl text-sm lg:text-base">
+                  <span class="font-semibold underline">Modèle :</span>
+                  Dissocié
+                </p>
+                <p class="max-w-4xl text-sm lg:text-base">
+                  <span class="font-semibold underline">Configuration :</span>
+                  300L
+                </p>
+                <p class="max-w-4xl text-sm lg:text-base">
+                  <span class="font-semibold underline">Marque :</span>
+                  Gaïa
+                </p>
+              </div>
+            </section>
+            <section class="pt-3">
+              <h2 class="font-medium py-2">
+                <span class="text-green-800">2.</span>
+                Problème
+              </h2>
+              <div>
+                <p class="max-w-4xl text-sm lg:text-base">
+                  Fuite sur l'installation d'eau chaude solaire
+                </p>
+              </div>
+              <div class="py-3 lg:py-3 max-w-screen-lg mx-auto">
+                <form class="grid grid-cols-3 gap-2 w-full pt-2 object-center">
+                  <div class="flex flex-col cursor-pointer">
+                    <div
+                      class="w-full rounded-xl overflow-hidden shadow-lg bg-gray-300"
+                    >
+                      <div
+                        class="font-medium my-6 h-14 text-center text-sm"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col cursor-pointer">
+                    <div
+                      class="w-full rounded-xl overflow-hidden shadow-lg bg-gray-300"
+                    >
+                      <div
+                        class="font-medium my-6 h-14 text-center text-sm"
+                      ></div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </section>
+            <section class="pt-3">
+              <h2 class="font-medium py-2">
+                <span class="text-green-800">3.</span>
+                Organisation de l'intervention
+              </h2>
+              <div>
+                <p class="max-w-4xl text-sm lg:text-base">
+                  <span class="font-semibold underline"
+                    >Jours disponisble :</span
+                  >
+                  Lundi, Mercredi
+                </p>
+                <p class="max-w-4xl text-sm lg:text-base">
+                  <span class="font-semibold underline">Créneaux :</span>
+                  de 7h à 12h
+                </p>
+              </div>
+            </section>
+            <section class="pt-3">
+              <h2 class="font-medium py-2">
+                <span class="text-green-800">4.</span>
+                Coordonnées
+              </h2>
+              <div>
+                <p class="max-w-4xl text-sm lg:text-base">Alexandre Clair</p>
+                <p class="max-w-4xl text-sm lg:text-base">
+                  hello@alexandraclair.fr
+                </p>
+                <p class="max-w-4xl text-sm lg:text-base">0692 17 99 19</p>
+              </div>
+            </section>
+            <!-- Section  Boutons -->
+            <section>
+              <div class="max-w-screen-lg mx-auto pt-4 bottom-0">
+                <div class="grid grid-cols-2 gap-2 w-full pt-2 object-center">
+                  <button
+                    type="button"
+                    class="w-full inline-flex justify-center rounded-xl border border-transparent shadow-sm px-4 py-2 lg:py-3 text-sm font-medium text-gray-600 bg-white hover:bg-green-700 hover:text-white border-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600 sm:ml-3 sm:w-auto sm:text-sm"
+                  >
+                    Prècédent
+                  </button>
+                  <button
+                    type="button"
+                    class="w-full inline-flex justify-center rounded-xl border border-transparent shadow-sm px-4 py-2 lg:py-3 text-sm font-medium text-white bg-green-800 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600 sm:ml-3 sm:w-auto sm:text-sm"
+                  >
+                    Suivant
+                  </button>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
       </div>
     </div>
 
