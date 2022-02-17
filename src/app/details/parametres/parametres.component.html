@@ -1,0 +1,224 @@
+<nav class="bg-white max-w-full inset-x-0">
+  <div
+    class="max-w-full mx-auto border text-center lg:text-center py-2 lg:py-1"
+  >
+    <div class="flex flex-col px-1 py-1 w-full bg-white border-transparent">
+      <div class="grid grid-cols-10 gap-0">
+        <div class="w-full h-full col-span-9 bg-white">
+          <h1
+            class="text-base py-1 lg:text-lg leading-4 font-bold tracking-tight text-gray-900"
+          >
+            Paramètres e-SOFFO
+          </h1>
+        </div>
+        <div class="w-full h-full py-1 flex flex-col bg-white items-center">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 lg:h-6 lg:w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              /></svg
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="pt-6 px-4 mb-1 mx-2 h-screen">
+  <p class="mt-2 max-w-4xl text-sm md:text-base lg:text-base">
+    Ajustez la configuration de votre chauffe-eau solaire connecté selon vos
+    besoins.
+  </p>
+  <form>
+    <!-- Douche -->
+    <section>
+      <div class="py-3 lg:py-3 max-w-screen-lg mx-auto">
+        <div class="flex justify-between items-center mb-4 2xl:pt-6">
+          <h1
+            class="mt-4 max-w-4xl text-base lg:text-base 2xl:text-xl font-bold tracking-wide"
+          >
+            Nombre de douches prévues par jour
+          </h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mt-4 text-green-700"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex flex-col px-5 py-3 rounded-xl w-full mt-2 mb-4 bg-white border-transparent"
+      >
+        <div class="grid grid-cols-10 gap-0">
+          <div class="w-full h-full flex flex-col bg-white items-center">
+            <label>1</label>
+          </div>
+          <div class="w-full h-full col-span-8 bg-white">
+            <div class="middle px-2">
+              <div class="slider-container">
+                <span class="bar"><span class="fill"></span></span>
+                <input
+                  id="slider"
+                  class="slider"
+                  type="range"
+                  min="1"
+                  max="20"
+                  value="10"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="w-full h-full flex flex-col bg-white items-center">
+            <label>20</label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Volume -->
+    <section>
+      <div class="py-3 lg:py-3 max-w-screen-lg mx-auto">
+        <div class="flex justify-between items-center mb-4 2xl:pt-6">
+          <h1
+            class="mt-4 max-w-4xl text-base lg:text-base 2xl:text-xl font-bold tracking-wide"
+          >
+            Volume d’eau d’une douche
+          </h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mt-4 text-green-700"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex flex-col px-5 py-3 rounded-xl w-full mt-2 mb-4 bg-white border-transparent"
+      >
+        <div class="grid grid-cols-10 gap-0">
+          <div class="w-full h-full flex flex-col bg-white items-center">
+            <label>10L</label>
+          </div>
+          <div class="w-full h-full col-span-8 bg-white">
+            <div class="middle px-2">
+              <div class="slider-container">
+                <span class="bar"><span class="fill"></span></span>
+                <input
+                  id="slider"
+                  class="slider"
+                  type="range"
+                  min="10"
+                  max="200"
+                  value="50"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="w-full h-full flex flex-col bg-white items-center">
+            <label>200L</label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Résistence  -->
+    <section>
+      <div class="py-3 lg:py-3 max-w-screen-lg mx-auto">
+        <div class="flex justify-between items-center mb-4 2xl:pt-6">
+          <h1
+            class="mt-4 max-w-4xl text-base lg:text-base 2xl:text-xl font-bold tracking-wide"
+          >
+            Volume d’eau d’une douche
+          </h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mt-4 text-green-700"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex flex-col px-5 py-3 rounded-xl w-full mt-2 mb-4 bg-white border-transparent"
+      >
+        <div class="grid grid-cols-3 gap-14 lg:gap-40 2xl:gap-60">
+          <div
+            class="w-full col-span-2 bg-white text-sm lg:text-base xl:text-base"
+          >
+            Pilotage automatique <span class="text-gray-200">- OFF</span>
+          </div>
+          <div class="w-full bg-white">
+            <!-- Toggle A -->
+            <div class="rounded-xl w-full bg-white border-transparent">
+              <label for="toogleA" class="flex items-center cursor-pointer">
+                <!-- toggle -->
+                <div class="relative items-end">
+                  <!-- input -->
+                  <input id="toogleA" type="checkbox" class="sr-only" />
+                  <!-- line -->
+                  <div
+                    class="w-10 h-4 bg-gray-200 rounded-full shadow-inner items-end"
+                  ></div>
+                  <!-- dot -->
+                  <div
+                    class="dot absolute w-6 h-6 bg-gray-300 rounded-full shadow -left-1 -top-1 transition"
+                  ></div>
+                </div>
+                <!-- label -->
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Localisation -->
+    <section>
+      <h2 class="font-medium">Localisation GPS</h2>
+      <p class="mt-2 max-w-4xl text-sm md:text-base lg:text-base">
+        Facilitez l’intervention de nos techniciens en renseignant la position
+        de votre e-SOFFO.
+      </p>
+
+      <div class="py-6 lg:py-6 max-w-screen-lg mx-auto">
+        <button
+          type="submit"
+          class="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-xl border-green-800 text-green-800 bg-white hover:border-green-600 hover:text-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600"
+        >
+          Activer ma position GPS
+        </button>
+      </div>
+    </section>
+  </form>
+</div>

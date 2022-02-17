@@ -28,6 +28,12 @@ import { MaintenanceChauffeEauComponent } from './maintenance/maintenance-chauff
 import { MaintenanceClimComponent } from './maintenance/maintenance-clim/maintenance-clim.component';
 import { MaintenancePhotoComponent } from './maintenance/maintenance-photo/maintenance-photo.component';
 import { MaintenanceBorneComponent } from './maintenance/maintenance-borne/maintenance-borne.component';
+import { DetailscoverComponent } from './detailscover/detailscover.component';
+import { DetailsComponent } from './details/details.component';
+
+import { AstuceVolumeComponent } from './details/astuce-volume/astuce-volume.component';
+import { AstucePilotageComponent } from './details/astuce-pilotage/astuce-pilotage.component';
+import { ParametresComponent } from './details/parametres/parametres.component';
 
 
 @NgModule({
@@ -58,6 +64,12 @@ import { MaintenanceBorneComponent } from './maintenance/maintenance-borne/maint
     MaintenanceClimComponent,
     MaintenancePhotoComponent,
     MaintenanceBorneComponent,
+    DetailscoverComponent,
+    DetailsComponent,
+
+    AstuceVolumeComponent,
+    AstucePilotageComponent,
+    ParametresComponent,
 
   ],
   imports: [
