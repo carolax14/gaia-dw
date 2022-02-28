@@ -41,7 +41,7 @@
   </div>
 </div>
 
-<div class="pt-6 px-4 mb-1 mx-2 h-screen">
+<div class="pt-6 px-4 mb-60 mb:mb-2 mx-2 h-screen">
   <h2 class="font-medium">
     <span class="text-green-800 md:text-lg">Etape 4 :</span>
     : Vos coordonnées
@@ -54,48 +54,74 @@
   <div class="py-3 lg:py-3 max-w-screen-lg mx-auto">
     <form>
       <div class="pb-5">
-        <div class="flex">
-          <div class="flex-grow pr-2">
-            <input
-              placeholder="Prénom"
-              class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
-            />
-          </div>
-          <div class="flex-grow">
-            <input
-              placeholder="Nom"
-              class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
-            />
-          </div>
-        </div>
+        <input
+          placeholder="Nom, Prénom"
+          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-md bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
+        />
         <input
           placeholder="Adresse mail"
-          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
-        /><input
-          placeholder="N° de téléphone"
-          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
+          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-md bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
         />
+        <input
+          placeholder="N° de téléphone"
+          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-md bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
+        />
+      </div>
+      <div class="pb-5">
+        <h2 class="font-medium md:text-lg">Contact alternatif ?</h2>
+
+        <div
+          class="flex flex-col px-5 py-3 border border-gray-200 rounded-md w-full mt-2 mb-4 bg-white border-transparent"
+        >
+          <div class="grid grid-cols-3 gap-14 md:gap-60 2xl:gap-60">
+            <div class="w-full col-span-2 bg-white lg:text-base xl:text-base">
+              Ajouter un contact supplémentaire
+            </div>
+            <div class="w-full bg-white">
+              <!-- Toggle A -->
+              <div class="rounded-xl w-full bg-white border-transparent">
+                <label for="toogleA" class="flex items-center cursor-pointer">
+                  <!-- toggle -->
+                  <div class="relative items-end">
+                    <!-- input -->
+                    <input id="toogleA" type="checkbox" class="sr-only" />
+                    <!-- line -->
+                    <div
+                      class="w-10 h-4 bg-gray-200 rounded-full shadow-inner items-end"
+                    ></div>
+                    <!-- dot -->
+                    <div
+                      class="dot absolute w-6 h-6 bg-gray-300 rounded-full shadow -left-1 -top-1 transition"
+                    ></div>
+                  </div>
+                  <!-- label -->
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="pb-5">
         <h2 class="font-medium md:text-lg">Adresse d'installation</h2>
         <input
           placeholder="Adresse"
-          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
+          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-md bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
         /><input
           placeholder="Complément d'adresse"
-          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
+          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-md bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
         />
         <div class="flex">
           <div class="flex-grow pr-2">
             <input
+              type="number"
               placeholder="Code postal"
-              class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
+              class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-md bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
             />
           </div>
           <div class="flex-grow">
             <input
               placeholder="Ville"
-              class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
+              class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-md bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
             />
           </div>
         </div>
@@ -103,49 +129,110 @@
       <div class="pb-5">
         <h2 class="font-medium md:text-lg">Adresse de facturation</h2>
 
-        <input
-          placeholder="Intitulé de l'adresse"
-          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
-        /><input
-          placeholder="Adresse"
-          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
-        />
-        <input
-          placeholder="Complément (batiment, appartement)"
-          class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
-        />
-        <div class="flex">
-          <div class="flex-grow pr-2">
-            <input
-              placeholder="Code postal"
-              class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
-            />
+        <div
+          class="flex flex-col px-5 py-3 border border-gray-200 rounded-md w-full mt-2 mb-4 bg-white border-transparent"
+        >
+          <div class="grid grid-cols-3 gap-14 md:gap-60 2xl:gap-60">
+            <div class="w-full col-span-2 bg-white lg:text-base xl:text-base">
+              Utiliser la même adresse
+            </div>
+            <div class="w-full bg-white">
+              <!-- Toggle A -->
+              <div class="rounded-xl w-full bg-white border-transparent">
+                <label for="toogleA" class="flex items-center cursor-pointer">
+                  <!-- toggle -->
+                  <div class="relative items-end">
+                    <!-- input -->
+                    <input id="toogleA" type="checkbox" class="sr-only" />
+                    <!-- line -->
+                    <div
+                      class="w-10 h-4 bg-gray-200 rounded-full shadow-inner items-end"
+                    ></div>
+                    <!-- dot -->
+                    <div
+                      class="dot absolute w-6 h-6 bg-gray-300 rounded-full shadow -left-1 -top-1 transition"
+                    ></div>
+                  </div>
+                  <!-- label -->
+                </label>
+              </div>
+            </div>
           </div>
-          <div class="flex-grow">
-            <input
-              placeholder="Ville"
-              class="text-black placeholder-gray-400 w-full px-4 py-2.5 mt-2 text-base lg:text-lg transition duration-500 ease-in-out transform border border-gray-200 rounded-xl bg-white focus:border-blueGray-500 focus:bg-white dark:focus:bg-gray-400 focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
-            />
+        </div>
+      </div>
+      <div class="pb-5">
+        <h2 class="font-medium md:text-lg">Quel est votre profil ?</h2>
+        <div class="grid grid-cols-2 gap-2 w-full pt-2 object-center">
+          <div class="flex flex-col cursor-pointer">
+            <div
+              class="w-full rounded-md overflow-hidden border border-gray-200 bg-white"
+            >
+              <div class="font-medium my-3 text-center text-sm">
+                Particulier
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col cursor-pointer">
+            <div
+              class="w-full rounded-md overflow-hidden border border-gray-200 bg-white"
+            >
+              <div class="font-medium my-3 text-center text-sm">
+                Professionnel
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pb-5">
+        <h2 class="font-medium md:text-lg">Etes vous déjà client Gaïa ?</h2>
+        <div class="grid grid-cols-2 gap-2 w-full pt-2 object-center">
+          <div class="flex flex-col cursor-pointer">
+            <div
+              class="w-full rounded-md overflow-hidden border border-gray-200 bg-white"
+            >
+              <div class="font-medium my-3 text-center text-sm">Oui</div>
+            </div>
+          </div>
+          <div class="flex flex-col cursor-pointer">
+            <div
+              class="w-full rounded-md overflow-hidden border border-gray-200 bg-white"
+            >
+              <div class="font-medium my-3 text-center text-sm">
+                Non, pas encore
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="flex-grow pr-2 max-w-screen-lg mx-auto">
+            <button
+              type="button"
+              class="w-full flex justify-center mt-3 py-2 px-4 border border-transparent text-base font-medium rounded-MD text-white bg-green-800 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600"
+            >
+              Envoyer la demande
+            </button>
           </div>
         </div>
       </div>
     </form>
   </div>
-
-  <div class="pt-2 pb-4 max-w-screen-lg mx-auto sm:pt-1 sm:pb-2">
-    <div class="grid grid-cols-2 gap-2 w-full pt-2 object-center">
-      <button
-        type="button"
-        class="w-full inline-flex justify-center rounded-xl border border-transparent shadow-sm px-4 py-3 lg:py-4 text-sm font-medium text-gray-600 bg-white hover:bg-green-700 border-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600 sm:ml-3 sm:w-auto sm:text-sm"
-      >
-        Prècédent
-      </button>
-      <button
-        type="button"
-        class="w-full inline-flex justify-center rounded-xl border border-transparent shadow-sm px-4 py-3 lg:py-4 text-sm font-medium text-white bg-green-800 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600 sm:ml-3 sm:w-auto sm:text-sm"
-      >
-        Suivant
-      </button>
-    </div>
-  </div>
 </div>
+<!-- fixed nav -->
+<nav
+  class="fixed inset-x-0 bottom-0 flex max-w-full justify-between bg-white text-sm text-gray-500"
+>
+  <div class="grid grid-cols-2 gap-2 w-full p-2 object-center">
+    <button
+      type="button"
+      class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-3 lg:py-4 text-sm font-medium text-gray-600 bg-white hover:bg-green-700 border-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600 sm:ml-3 sm:w-auto sm:text-sm"
+    >
+      Prècédent
+    </button>
+    <button
+      type="button"
+      class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-3 lg:py-4 text-sm font-medium text-white bg-green-800 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600 sm:ml-3 sm:w-auto sm:text-sm"
+    >
+      Suivant
+    </button>
+  </div>
+</nav>
