@@ -6,7 +6,11 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     
-    extend: {},
+    extend: {
+      colors:{
+      green_gaia: '#047A3A',
+    },
+  },
   },
   variants: {
     extend: {},
