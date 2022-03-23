@@ -34,6 +34,7 @@ import { DetailsComponent } from './details/details.component';
 import { AstuceVolumeComponent } from './details/astuce-volume/astuce-volume.component';
 import { AstucePilotageComponent } from './details/astuce-pilotage/astuce-pilotage.component';
 import { ParametresComponent } from './details/parametres/parametres.component';
+import { PrevisualComponent } from './details/previsual/previsual.component';
 
 
 @NgModule({
@@ -70,6 +71,7 @@ import { ParametresComponent } from './details/parametres/parametres.component';
     AstuceVolumeComponent,
     AstucePilotageComponent,
     ParametresComponent,
+    PrevisualComponent,
 
   ],
   imports: [

@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors:{
       green_gaia: '#047A3A',
+      orange_gaia: '#F06E30',
     },
   },
   },
